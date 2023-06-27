@@ -5,7 +5,7 @@
 <h2>The components of a MIPS processor include:</h2>
 <ul>
   <li>
-    Hazard detection unit: The hazard detection unit is responsible for detecting hazards that may occur during the execution of instructions. It examines the current instruction and the previous instruction to determine if there is a hazard. Hazards can occur due to data dependencies, control dependencies, or structural dependencies.
+    Hazard detection unit: The hazard detection unit is responsible for detecting hazards <i>(data hazard & structure hazard)</i> that may occur during the execution of instructions. It examines the current instruction operation code (OPcode) to determine if there is a hazard.
   </li>
   
   <li>
