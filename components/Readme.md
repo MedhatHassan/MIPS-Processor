@@ -22,5 +22,14 @@
       <li>
         Instruction Register (IR): The IR is a register unit that stores the instructions to be executed. During the Instruction Fetch (IF) stage, the processor reads an instruction from the IM using the address stored in           the PC.
       </li>
+        <ul>
+          <li>
+            $s0 to $s4: These registers are saved registers that can be used to store values that need to be preserved across function calls.
+          </li>
+          <li>
+          </li>
+          <li>
+          </li>
+        </ul>
     </ul>
 </ul>
