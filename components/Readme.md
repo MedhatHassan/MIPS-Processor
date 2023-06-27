@@ -22,13 +22,17 @@
       <li>
         Instruction Register (IR): The IR is a register unit that stores the instructions to be executed. During the Instruction Fetch (IF) stage, the processor reads an instruction from the IM using the address stored in           the PC.
       </li>
+      <li>multi purpose register</li>
         <ul>
           <li>
             $s0 to $s4: These registers are saved registers that can be used to store values that need to be preserved across function calls.
           </li>
           <li>
+            $t0 to $t4: These registers are temporary registers that can be used for any purpose. They are often used to hold intermediate values during calculations.
           </li>
+            $v0 : a register is used to hold the return values of functions (User input).
           <li>
+            $a0 : a register is used to hold the return values of functions (User output).
           </li>
         </ul>
     </ul>
