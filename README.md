@@ -11,5 +11,6 @@ The MIPS processor is characterized by its simplicity, high performance, and low
 <li>Overall, this project provides a useful resource for those interested in MIPS processor design and implementation, and can be a valuable addition to any hardware design or computer architecture portfolio.</li>
 </ul>
 
+<h2>Processor Architecture</h2>
 
 <p><i>This implementation can be used as a starting point for anyone interested in learning about MIPS processors or implementing their own MIPS processor. The project is open-source and contributions are welcome 😃.</i></p>
