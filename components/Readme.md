@@ -11,7 +11,9 @@
     Instruction Register (IR): The IR is a register unit that stores the instructions to be executed. During the Instruction Fetch (IF) stage, the processor reads an instruction from the IM using the address stored in the PC.
   </li>
   <li>
+    Arithmetic Logic Unit (ALU): The ALU performs basic arithmetic and logical operations on data stored in registers. These operations include addition (add) & immediate addition (addi).
   </li>
   <li>
+    Memory: The memory unit that store data. During the Memory Access (MEM) stage, the processor reads or writes data to the memory.
   </li>
 </ul>
