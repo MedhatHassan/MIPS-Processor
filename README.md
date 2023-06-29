@@ -21,5 +21,7 @@ The MIPS processor is characterized by its simplicity, high performance, and low
 <P>
 <b>Note: OPcode : for operation code R1 : is the destenation Register R2, R3 : is Operands registers </b>
 </P>
+<h2>Opertions & Registers</h2>
+<img src="https://github.com/MedhatHassan/MIPS-Processor/blob/main/Images/Opertions%26Registers.png">
 <br>
 <p><i>This implementation can be used as a starting point for anyone interested in learning about MIPS processors or implementing their own MIPS processor. The project is open-source and contributions are welcome</i> 😃.</p>
