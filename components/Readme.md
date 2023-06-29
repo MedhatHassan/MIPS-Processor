@@ -17,15 +17,16 @@
   <li>
     Control Unit: This component generates the control signals that are necessary for the decode stage and other stages of the pipeline.
   </li>
+    <li>BUS:</li>
   <ul class = "bus">
     <li>
-       Data Bus: This bus is used to transfer data between the processor and memory or other devices. It is typically 32 bits wide in a 32-bit MIPS processor, and 64 bits wide in a 64-bit MIPS processor.
+       Data Bus: is used to transfer data between the processor and memory or other devices. It is typically 32 bits wide in a 32-bit MIPS processor, and 64 bits wide in a 64-bit MIPS processor.
     </li>
     <li>  
-      Address Bus: This bus is used to specify the memory address or device address for data transfer operations. In a 32-bit MIPS processor, the address bus is typically 32 bits wide, while in a 64-bit MIPS processor, it       is 64 bits wide.
+      Address Bus: is used to specify the memory address or device address for data transfer operations. In a 32-bit MIPS processor, the address bus is typically 32 bits wide, while in a 64-bit MIPS processor, it       is       64 bits wide.
     </li>
     <li>
-      Control Bus: This bus is used to transfer control signals between different components of the processor, such as the instruction decoder, arithmetic logic unit, and memory interface unit.
+      Control Bus: is used to control load signals between different <i>components</i> of the processor, such as Registers, arithmetic logic unit, and memory unit.
     </li>
   </ul>
   <li>
