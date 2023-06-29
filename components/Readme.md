@@ -6,8 +6,11 @@
 <ul>
   <li>
     Hazard detection unit: The hazard detection unit is responsible for detecting hazards <i>(data hazard & structure hazard)</i> that may occur during the execution of instructions. It examines the current instruction operation code (OPcode) to determine if there is a hazard.
+  <li>
+    
   </li>
-  
+  </li>
+    decoder component :  responsible for interpreting the binary instructions and directing the various functional units to execute the desired operation.By efficiently decoding instructions and generating the appropriate     control signals, the decoder helps to ensure that the processor operates correctly and efficiently.
   <li>
     Arithmetic Logic Unit (ALU): The ALU performs basic arithmetic and logical operations on data stored in registers. These operations include addition (add) & immediate addition (addi).
   </li>
@@ -29,12 +32,6 @@
         Control Bus: is used to control load signals between different <i>components</i> of the processor, such as Registers, arithmetic logic unit, and memory unit.
       </li>
     </ul>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
     <li>Registers</li>
     <ul class="registers">
       <li>
