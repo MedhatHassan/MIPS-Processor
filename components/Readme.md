@@ -50,9 +50,8 @@
       <li>
         Address register (AR): is used to specify the memory address where the operand is stored. rather than it is used to specify the memory address where the result of the operation should be stored.
       </li>
-      
       <li>General Purpose Registers</li>
-        <ul>
+    <ul>
           <li>
             $s0 to $s4: These registers are saved registers that can be used to store values that need to be preserved across function calls.
           </li>
