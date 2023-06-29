@@ -7,7 +7,7 @@
   <li>
     Hazard detection unit: The hazard detection unit is responsible for detecting hazards <i>(data hazard & structure hazard)</i> that may occur during the execution of instructions. It examines the current instruction operation code (OPcode) to determine if there is a hazard.
   <li>
-    
+    the fetch component: is responsible for retrieving the next instruction from memory and placing it into the instruction register.
   </li>
   </li>
     decoder component :  responsible for interpreting the binary instructions and directing the various functional units to execute the desired operation.By efficiently decoding instructions and generating the appropriate     control signals, the decoder helps to ensure that the processor operates correctly and efficiently.
