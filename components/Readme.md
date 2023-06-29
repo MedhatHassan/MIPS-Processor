@@ -33,11 +33,16 @@
     
   </li>
   <li>
+    
   </li>
     <li>Registers</li>
     <ul class="registers">
       <li>
-          Program Counter (PC): The PC is a register that contains the address of the next instruction to be executed.
+        Program Counter (PC): is a register that contains the address of the next instruction to be executed.
+      </li>
+      <li>
+        Sequence counter (SC): is a register used to keep track of the number of instructions in one operation (OPcode).
+        <br><b>NOTE: PC & SC have a hardware mechanism that is implemented at the microarchitecture level, and is not directly accessible to software programs running on the MIPS processor.</b>
       </li>
       <li>
         Instruction Register (IR): The IR is a register unit that stores the instructions to be executed. During the Instruction Fetch (IF) stage, the processor reads an instruction from the IM using the address stored in           the PC.
@@ -45,6 +50,7 @@
       <li>
         Address register (AR): is used to specify the memory address where the operand is stored. rather than it is used to specify the memory address where the result of the operation should be stored.
       </li>
+      
       <li>General Purpose Registers</li>
         <ul>
           <li>
