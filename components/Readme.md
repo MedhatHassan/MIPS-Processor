@@ -14,10 +14,28 @@
   <li>
     Memory: The memory unit that store data. During the Memory Access (MEM) stage, the processor reads or writes data to the memory.
   </li>
+  <li>
+    Control Unit: This component generates the control signals that are necessary for the decode stage and other stages of the pipeline.
+  </li>
+  <ul class = "bus">
+    <li>
+       Data Bus: This bus is used to transfer data between the processor and memory or other devices. It is typically 32 bits wide in a 32-bit MIPS processor, and 64 bits wide in a 64-bit MIPS processor.
+    </li>
+    <li>  
+      Address Bus: This bus is used to specify the memory address or device address for data transfer operations. In a 32-bit MIPS processor, the address bus is typically 32 bits wide, while in a 64-bit MIPS processor, it       is 64 bits wide.
+    </li>
+    <li>
+      Control Bus: This bus is used to transfer control signals between different components of the processor, such as the instruction decoder, arithmetic logic unit, and memory interface unit.
+    </li>
+  </ul>
+  <li>
+  </li>
+  <li>
+  </li>
     <li>Registers</li>
     <ul class="registers">
       <li>
-      Program Counter (PC): The PC is a register that contains the address of the next instruction to be executed.
+          Program Counter (PC): The PC is a register that contains the address of the next instruction to be executed.
       </li>
       <li>
         Instruction Register (IR): The IR is a register unit that stores the instructions to be executed. During the Instruction Fetch (IF) stage, the processor reads an instruction from the IM using the address stored in           the PC.
