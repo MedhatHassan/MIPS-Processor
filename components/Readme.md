@@ -18,18 +18,19 @@
     Control Unit: This component generates the control signals that are necessary for the decode stage and other stages of the pipeline.
   </li>
     <li>BUS:</li>
-  <ul class = "bus">
-    <li>
-       Data Bus: is used to transfer data between the processor and memory or other devices. It is typically 32 bits wide in a 32-bit MIPS processor, and 64 bits wide in a 64-bit MIPS processor.
-    </li>
-    <li>  
-      Address Bus: is used to specify the memory address or device address for data transfer operations. In a 32-bit MIPS processor, the address bus is typically 32 bits wide, while in a 64-bit MIPS processor, it       is       64 bits wide.
-    </li>
-    <li>
-      Control Bus: is used to control load signals between different <i>components</i> of the processor, such as Registers, arithmetic logic unit, and memory unit.
-    </li>
-  </ul>
+    <ul class = "bus">
+      <li>
+         Data Bus: is used to transfer data between the processor and memory or other <i>components</i>.  In a MIPS processor, the data bus is typically 32 bits wide.
+      </li>
+      <li>  
+        Address Bus: is used to specify the memory address or <i>components</i> address for data transfer operations. In a MIPS processor, the address bus is typically 32 bits wide.
+      </li>
+      <li>
+        Control Bus: is used to control load signals between different <i>components</i> of the processor, such as Registers, arithmetic logic unit, and memory unit.
+      </li>
+    </ul>
   <li>
+    
   </li>
   <li>
   </li>
@@ -41,7 +42,10 @@
       <li>
         Instruction Register (IR): The IR is a register unit that stores the instructions to be executed. During the Instruction Fetch (IF) stage, the processor reads an instruction from the IM using the address stored in           the PC.
       </li>
-      <li>multi purpose register</li>
+      <li>
+        Address register (AR): is used to specify the memory address where the operand is stored. rather than it is used to specify the memory address where the result of the operation should be stored.
+      </li>
+      <li>General Purpose Registers</li>
         <ul>
           <li>
             $s0 to $s4: These registers are saved registers that can be used to store values that need to be preserved across function calls.
@@ -49,7 +53,9 @@
           <li>
             $t0 to $t4: These registers are temporary registers that can be used for any purpose. They are often used to hold intermediate values during calculations.
           </li>
+          <li>  
             $v0 : a register is used to hold the return values of functions (User input).
+          </li>
           <li>
             $a0 : a register is used to hold the return values of functions (User output).
           </li>
