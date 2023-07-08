@@ -13,7 +13,7 @@ The MIPS processor is characterized by its simplicity, high performance, and low
 <br>
 
 <h2>Processor Architecture</h2>
-
+<img src="https://github.com/MedhatHassan/MIPS-Processor/blob/main/Images/mipsProject-1.png">
 
 <br>
 <h2 id = "Instruction_Structure">Instruction Structure</h2>
